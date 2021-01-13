@@ -27,6 +27,8 @@ nav {
 .intro-img {
   object-fit: contain;
   width: 100%;
+  margin: 0 auto;
+  outline: 2px red solid
 }
 .logo {
   object-fit: contain;
@@ -210,7 +212,7 @@ footer {
   display: none;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1150px) {
   nav {
     display: flex;
     justify-content: space-between;
@@ -283,8 +285,9 @@ footer {
     display: block;
     position: absolute;
     max-height: 580px;
-    right: 5em;
-    top: 4em;
+    max-width: 400px;
+    right: 7em;
+    top: 8em;
   }
 
   .pitch-section {
